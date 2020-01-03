@@ -19,3 +19,6 @@ function toggleMenu() {
         document.querySelector("#menuknap").textContent = "X";
     }
 }
+
+
+

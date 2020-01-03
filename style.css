@@ -1,3 +1,114 @@
+/*---- Generelle indstillinger ------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+
+
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+/****Animation***/
+
+
+
+/*
+#animation iframe {
+    width: 100vw;
+    height: 60vw;
+    border: 0;
+    margin-left:auto;
+    margin-right:auto;
+
+
+
+}
+*/
+
+
+
+.iframe {
+    height: 100px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+
+#temaer .col {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 0.5rem 0.1rem;
+
+
+}
+
+
+#temaer .img {}
+
+
+#skitserspil .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 0.5rem 0.1rem;
+
+
+
+}
+
+#skitserspil .col .img {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 0.5rem 0.1rem;
+
+
+
+
+
+}
+
+
+#moodboardspil .col {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 0.5rem 0.1rem;
+
+
+}
+
+
+
+/***menu***/
+
 header {
     width: 100vw;
     background-color: #a07d6a;
@@ -13,17 +124,14 @@ header nav {
 
 
 header nav a {
+    display: flex;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-
-header a {
     padding: 0.5rem;
-    display: flex;
     color: white;
 }
+
 
 
 header nav a:visited {
@@ -41,6 +149,13 @@ header nav a:visited {
     color: white;
     margin: 0.5rem;
 }
+
+
+
+
+
+
+/*****Menu SLUT*****/
 
 
 /**** media INDSTILLINGER **/
@@ -77,3 +192,8 @@ header nav a:visited {
     }
 
 
+
+    @media only screen and (min-width: 800px) #animationtxt .col {
+        flex-grow: 1;
+        flex-basis: 300px;
+    }
