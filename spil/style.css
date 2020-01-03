@@ -1,0 +1,623 @@
+@font-face {
+    font-family: 'just_tell_me_whatregular';
+    src: url('skrift/just_tell_me_what_regular_version_2-webfont.woff2') format('woff2'),
+        url('just_tell_me_what_regular_version_2-webfont.woff') format('woff');
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#screen {
+    height: 56vw;
+    width: 100vw;
+    position: relative;
+}
+
+/*------------------------start_screen-----------------------------*/
+
+#start_screen {
+    background-image: url(SVG_filer/startscreen.svg);
+    position: absolute;
+    background-size: cover;
+    height: 56vw;
+    width: 100vw;
+    z-index: 100;
+}
+
+#play_knap {
+    background-image: url(SVG_filer/play.svg);
+    position: absolute;
+    background-size: cover;
+    height: 10vw;
+    width: 10vw;
+    top: 36vw;
+    left: 45vw;
+}
+
+#rules {
+    background-image: url(SVG_filer/rules.svg);
+    position: absolute;
+    background-size: cover;
+    height: 56vw;
+    width: 100vw;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+}
+
+#rules_play {
+    background-image: url(SVG_filer/play.svg);
+    position: absolute;
+    background-size: cover;
+    height: 10vw;
+    width: 10vw;
+    top: 36vw;
+    left: 45vw;
+}
+
+#rules_txt {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    /*    font-weight: bold;*/
+    position: absolute;
+    top: 18vw;
+    left: 25vw;
+
+
+}
+
+#rules_text {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    /*    font-weight: bold;*/
+    position: absolute;
+    top: 22vw;
+    left: 15vw;
+
+
+}
+
+#rules_kom {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    /*    font-weight: bold;*/
+    position: absolute;
+    bottom: 22vw;
+    left: 35vw;
+
+
+
+}
+
+
+/*------------------------game_screen-----------------------------*/
+
+#game_screen {
+    height: 56vw;
+    width: 100vw;
+    background-image: url(SVG_filer/gamescreen.svg);
+    position: absolute;
+    background-size: cover;
+}
+
+/*------------game_elements*/
+
+.vennebillede1 {
+    background-image: url(SVG_filer/venner_1.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede2 {
+    background-image: url(SVG_filer/venner_2.svg);
+    background-size: cover;
+    /*
+    background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+*/
+
+}
+
+.vennebillede3 {
+    background-image: url(SVG_filer/venner_3.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede4 {
+    background-image: url(SVG_filer/venner_4.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede5 {
+    background-image: url(SVG_filer/venner_5.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede6 {
+    background-image: url(SVG_filer/venner_6.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede7 {
+    background-image: url(SVG_filer/venner_7.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute; */
+
+}
+
+.vennebillede8 {
+    background-image: url(SVG_filer/venner_8.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede9 {
+    background-image: url(SVG_filer/venner_9.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.vennebillede10 {
+    background-image: url(SVG_filer/venner_10.svg);
+    background-size: cover;
+    /*   background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede1 {
+    background-image: url(SVG_filer/naked_1.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede2 {
+    background-image: url(SVG_filer/naked_2.svg);
+    background-size: cover;
+    /*
+    background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+*/
+
+}
+
+.nakedbillede3 {
+    background-image: url(SVG_filer/naked_3.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede4 {
+    background-image: url(SVG_filer/naked_4.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede5 {
+    background-image: url(SVG_filer/naked_5.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede6 {
+    background-image: url(SVG_filer/naked_6.svg);
+    background-size: cover;
+    /*background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede7 {
+    background-image: url(SVG_filer/naked_7.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute; */
+
+}
+
+.nakedbillede8 {
+    background-image: url(SVG_filer/naked_8.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede9 {
+    background-image: url(SVG_filer/naked_9.svg);
+    background-size: cover;
+    /* background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+.nakedbillede10 {
+    background-image: url(SVG_filer/naked_10.svg);
+    background-size: cover;
+    /*   background-size: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;*/
+
+}
+
+
+/*------------game_elements*/
+
+#point {
+    background-image: url(SVG_filer/point.svg);
+    position: absolute;
+    background-size: cover;
+    height: 7vw;
+    width: 12.5vw;
+    top: 3vw;
+    left: 5vw;
+    font-family: 'just_tell_me_whatregular';
+}
+
+#score {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    font-size: 2.5vw;
+    font-family: 'just_tell_me_whatregular';
+}
+
+
+
+#liv1 {
+    background-image: url(SVG_filer/liv2.svg);
+    position: absolute;
+    background-size: cover;
+    height: 5vw;
+    width: 6.5vw;
+    top: 3vw;
+    right: 5vw;
+}
+
+#liv2 {
+    background-image: url(SVG_filer/liv2.svg);
+    position: absolute;
+    background-size: cover;
+    height: 5vw;
+    width: 6.5vw;
+    top: 3vw;
+    right: 12vw;
+}
+
+#liv3 {
+    background-image: url(SVG_filer/liv2.svg);
+    position: absolute;
+    background-size: cover;
+    height: 5vw;
+    width: 6.5vw;
+    top: 3vw;
+    right: 19vw;
+}
+
+#tid_container {
+    position: absolute;
+    top: 10vh;
+    left: 33vw;
+    width: 30vw;
+    height: 3.5vw;
+    background-color: #c3c3c3;
+
+
+}
+
+#tid_sprite {
+    background-color: orangered;
+    width: 30vw;
+    height: 3.5vw;
+    transform-origin: right;
+
+
+}
+
+.shrink {
+    animation-name: shrink_kf;
+    animation-duration: 30s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shrink_kf {
+    0% {
+        transform: scalex(1);
+
+    }
+
+    100% {
+        transform: scalex(0);
+
+    }
+}
+
+/*--------------------------Slut-skærme-------------------------------*/
+
+#level_complete {
+    background-image: url(SVG_filer/godstil1.svg);
+    position: absolute;
+    background-size: cover;
+    height: 56vw;
+    width: 100vw;
+    /*    pointer-events: none;*/
+}
+
+#replay2 {
+    background-image: url(SVG_filer/replay2.svg);
+    height: 6vw;
+    width: 5.9vw;
+    bottom: 6vw;
+    left: 47vw;
+    position: absolute;
+    z-index: 101;
+
+}
+
+#tekst4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 30vw;
+    left: 15vw;
+
+}
+
+#tekst5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9vw;
+    position: absolute;
+    top: 36vw;
+    left: 12vw;
+}
+
+#game_over {
+    background-image: url(SVG_filer/darligstil2.svg);
+    position: absolute;
+    background-size: cover;
+    height: 56vw;
+    width: 100vw;
+    /*    pointer-events: none;*/
+}
+
+#replay1 {
+    background-image: url(SVG_filer/replay2.svg);
+    height: 6vw;
+    width: 5.9vw;
+    bottom: 6vw;
+    left: 47vw;
+    position: absolute;
+    z-index: 101;
+
+}
+
+#tekst1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 30vw;
+    left: 16vw;
+
+}
+
+#tekst2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    position: absolute;
+    top: 35vw;
+    left: 30vw;
+}
+
+#tekst3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9vw;
+    position: absolute;
+    top: 40vw;
+    left: 14vw;
+}
+
+
+/*--------------------------Positioner-------------------------------*/
+
+#hand1 {
+    top: 20vw;
+    left: 9.1vw;
+    transform: rotate(-6.5deg);
+    width: 7vw;
+    height: 12vw;
+    position: absolute;
+
+}
+
+#hand2 {
+    top: 26.4vw;
+    left: 26.2vw;
+    transform: rotate(18deg);
+    width: 7vw;
+    height: 12vw;
+    position: absolute;
+}
+
+#hand3 {
+    top: 35.5vw;
+    right: 45.15vw;
+    transform: rotate(-3.4deg);
+    width: 7vw;
+    height: 12vw;
+    position: absolute;
+}
+
+#hand4 {
+    bottom: 15.5vw;
+    right: 28.7vw;
+    transform: rotate(-19deg);
+    width: 7vw;
+    height: 12vw;
+    position: absolute;
+}
+
+#hand5 {
+    top: 19vw;
+    right: 11.1vw;
+    transform: rotate(13.8deg);
+    width: 7vw;
+    height: 12vw;
+    position: absolute;
+}
+
+/*------------------------Animationer-------------------------------*/
+
+.hide {
+    visibility: hidden;
+}
+
+.disappear {
+    animation-name: disappear_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear_kf {
+    0% {
+        transform: scale(1);
+    }
+
+    /*
+    10% {
+        transform: scale(0);
+    }*/
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+.fade_in {
+
+    bottom: 13.9vw;
+    right: 24.5vw;
+    transform: rotate(-20deg);
+    width: 15vw;
+    height: 15vw;
+    animation-name: fade_in_kf;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade_in_kf {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 100;
+    }
+
+    to {
+        opacity: 0;
+    }
+
+}
+
+.delay1 {
+    animation-delay: 0.3s;
+}
+
+.delay2 {
+    animation-delay: 0.2s;
+}
+
+.delay3 {
+    animation-delay: 0.4s;
+}
+
+.delay4 {
+    animation-delay: 0.5s;
+}
+
+.delay5 {
+    animation-delay: 0.1s;
+}

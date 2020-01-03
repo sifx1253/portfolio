@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vær en god ven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+        <div id="start_screen" class="hide">
+            <div id="play_knap">
+                <div id="rules">
+                    <div id="rules_txt">
+
+                        <p>Slet de ulovlige nøgenbilleder der skal til at deles på de socialemedier</p>
+                    </div>
+                    <div id="rules_text">
+                        <p>Lad nu være med at slette billeder af dine venner fordi så mister du venner, og taber spillet.</p>
+                    </div>
+                    <div id="rules_kom">
+                        <p>Kom så -VÆR EN GOD VEN!</p>
+                    </div>
+                    <div id="rules_play"></div>
+                </div>
+            </div>
+        </div>
+        <div id="game_screen">
+            <div id="game_elements">
+                <div id="hand1" class="delay1"></div>
+                <div id="hand2" class="delay2"></div>
+                <div id="hand3" class="delay3"></div>
+                <div id="hand4" class="delay4"></div>
+                <div id="hand5" class="delay5"></div>
+            </div>
+            <div id="game_ui">
+                <div id="point">
+                    <div id="score"></div>
+                </div>
+                <div id="tid">
+                    <div id="tid_container">
+                        <div id="tid_sprite" class=""></div>
+                    </div>
+                </div>
+                <div id="liv">
+                    <div id="liv1"></div>
+                    <div id="liv2"></div>
+                    <div id="liv3"></div>
+                </div>
+            </div>
+            <div id="game_over" class="hide">
+                <div id="replay1"></div>
+                <div id="tekst1">
+                    <p>Du nåede ikke at slette nok nøgenbilleder fra telefonerne!</p>
+                </div>
+                <div id="tekst2">
+                    <p>Det er ikke bare dårlig stil, men det er også ulovligt.</p>
+                </div>
+                <div id="tekst3">
+                    <p>Hvis du har spørgsmål eller har været ude for hævnporno kan du skrive til os på <a href="http://privatsnak.dk">Privatsnak.dk</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="level_complete" class="hide">
+                <div id="replay2"></div>
+                <div id="tekst4">
+                    <p>Du fik slettet minimum 10 hævnpornobilleder fra telefonerne!</p>
+                </div>
+                <div>
+                    <div id="tekst5">
+                        <p>Hvis du har spørgsmål eller har været ude for hævnporno kan du skrive til os på Privatsnak.dk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="sounds">
+        <audio src="lyde/Arrrh.mp3" id="badClick1"></audio>
+        <audio src="lyde/Forhelvede.mp3" id="badClick2"></audio>
+        <audio src="lyde/D%C3%A5rlig%20Stil.mp3" id="daarligStil"></audio>
+        <audio src="lyde/God%20Stil1%20kopi.mp3" id="godStil"></audio>
+        <audio src="lyde/S%C3%A5dan.mp3" id="goodClick1"></audio>
+        <audio src="lyde/Wuhuuuu.mp3" id="goodClick2"></audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
