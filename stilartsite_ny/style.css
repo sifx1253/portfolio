@@ -1,0 +1,464 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+    background-color: white;
+
+
+
+
+}
+
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #d9d9c9;
+    border-radius: 10px;
+
+}
+
+
+img {
+    width: 100%;
+    /*    box-shadow: 5px 5px 15px #0f181c;*/
+    border-radius: 10px;
+
+}
+
+/****************************  Menu  ****************************/
+
+
+header {
+
+
+    width: 100%;
+
+}
+
+header nav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 1.2rem;
+    background-image: linear-gradient 10% (to right, rgba(255, 0, 0, 0), #d9d9c9);
+    text-transform: uppercase;
+    font-size: 0.2rem;
+    padding: 0.3rem;
+    position: fixed;
+
+
+}
+
+
+
+
+header nav a {
+    margin: 0;
+    padding: 1rem;
+    text-decoration: none;
+
+
+}
+
+
+/****************************  Menu slut  ****************************/
+
+/***** splash *****/
+
+
+#splash {
+    width: 100%;
+    height: 100vh;
+    background-image: url(splash.jpg);
+    background-size: cover;
+    background-position: 69% 10%;
+    max-width: none;
+    margin: 0 auto
+}
+
+
+/***** om *****/
+
+
+
+
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+
+
+
+
+
+
+
+
+}
+
+#om .col {
+    flex-basis: 500px;
+    flex-grow: 1;
+    padding: 1rem;
+
+
+}
+
+
+
+/*****eksempler*****/
+
+
+#eksempler .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+
+}
+
+#eksempler .col {
+    padding: 1rem;
+    margin: 1rem;
+    flex-grow: 1;
+    flex-basis: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    /*    box-shadow: 5px 5px 15px #8B3832;*/
+    border: 2px solid black;
+    border-radius: 10px;
+
+
+
+}
+
+#eksempler .img {
+    height: 85%;
+
+}
+
+
+/*****typografi*****/
+
+/*****typografi*****/
+
+#typografi .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#typografi .col_wide {
+    display: flex;
+    flex-basis: 700px;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    padding: 1.6rem;
+}
+
+
+
+#typografi .col_narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1.6rem;
+}
+
+#typografi .top {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+#typografi .bottom {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+#typografi .txt,
+#typografi .image {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+/*****komposition_farver*****/
+
+#komposition_farver .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    padding: 1rem;
+}
+
+#komposition_farver .col_wide {
+    flex-grow: 3;
+    flex-basis: 600px;
+    flex-wrap: nowrap;
+    padding: 1.6rem;
+}
+
+
+
+.colors div {
+    border: solid black;
+    border-width: thin;
+    height: 100px;
+    width: 100px;
+}
+
+
+#komposition_farver .content {
+    flex-grow: 3;
+    flex-basis: 800px;
+    padding: 1.6rem;
+}
+
+#komposition_farver .col_narrow {
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1.6rem;
+}
+
+
+
+
+
+
+
+/*****links*****/
+
+
+#links .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+
+/*****ekstra*****/
+
+#ekstra .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+#ekstra .col {
+
+    flex-basis: 300px;
+    flex-direction: column;
+}
+
+
+
+/*****slut*****/
+
+
+
+h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 3.3rem;
+    color: #D73A31;
+    padding: 1.6rem;
+    text-shadow: 0px 1px black;
+
+
+}
+
+
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.3rem;
+    color: #8B3832;
+    text-shadow: 0px 1px black;
+}
+
+h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.8rem;
+    color: #8B3832;
+
+
+}
+
+
+#styletile .forklaring {
+    font-size: 0.7rem;
+    font-family: 'Roboto Slab', serif;
+    color: #332727;
+
+}
+
+.broedtekst {
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+a:link {
+    color: #8B3832;
+}
+
+a:visited {
+    color: #8B3832;
+}
+
+a:hover {
+    color: #F1D9BD;
+}
+
+a:active {
+    color: #8B3832;
+}
+
+
+.colors div {
+    height: 100px;
+    width: 100px;
+}
+
+.farve_1 {
+    background-color: #332727;
+}
+
+.farve_2 {
+    background-color: #8B3832;
+}
+
+.farve_3 {
+    background-color: #D73A31;
+}
+
+.farve_4 {
+    background-color: #9a9085;
+
+}
+
+.farve_5 {
+    background-color: #f4d5b2;
+
+}
+
+/*
+.farve_6 {
+    background-color: #d9d9c9;
+}
+*/
+
+
+#styletile .sectionwrapper {
+    padding: 1rem;
+}
+
+#styletile .image {
+    width: 20vw;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #d9d9c9;
+    text-align: center;
+    color: #D73A31;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (orientation:portrait) and (min-width:600px) {
+
+    #splash {
+
+        width: 100%;
+        height: 56.25vw;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #eksempler .col {
+        flex-basis: 200px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 800px) {
+    body {
+        width: 100vw;
+        height: 56.25vw;
+    }
+
+}
+
+@media only screen and (min-width:830px) {
+
+    header nav {
+        flex-direction: row;
+        justify-content: center;
+
+
+
+
+    }
+
+    header nav a {
+        font-size: 0.5rem;
+        padding: 2rem;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-decoration: none;
+        width: 150px;
+        border-width: thin;
+        font-size: 0.8rem;
+        background-color: transparent;
+        margin: 0.2rem;
+
+
+
+    }
+
+}

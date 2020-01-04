@@ -33,47 +33,45 @@ section {
 
 
 
-/****Animation***/
+/****Animation forsiden***/
+
+
+#anigrund .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /*    justify-content: space-between;*/
+    padding: 1rem;
+
+}
+
+
+#animagrund .col_txt {
+    flex-basis: 500px;
+    flex-grow: 1;
 
 
 
-/*
+}
+
+#animagrund .col_image {
+    flex-basis: 500px;
+    flex-grow: 1;
+
+
+}
+
+/***SLUT***/
+
+/**spil**/
+
 #animation iframe {
     width: 100vw;
-    height: 60vw;
+    height: 56.25vw;
     border: 0;
-    margin-left:auto;
-    margin-right:auto;
-
-
-
-}
-*/
-
-
-
-.iframe {
-    height: 100px;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
 
-
-
-
-#temaer .col {
-    flex-grow: 1;
-    flex-basis: 400px;
-    margin: 0.5rem 0.1rem;
-
-
-}
-
-
-#temaer .img {}
 
 
 #skitserspil .col {
@@ -91,19 +89,111 @@ section {
     margin: 0.5rem 0.1rem;
 
 
-
-
-
 }
 
 
 #moodboardspil .col {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 300px;
     margin: 0.5rem 0.1rem;
 
 
 }
+
+#spil_screen .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#spil_screen .col {
+    flex-grow: 1;
+    flex-basis: 600px;
+
+
+}
+
+#spil_screen .col1 {
+    flex-grow: 1;
+    flex-basis: 600px;
+
+
+}
+
+
+
+
+#spil_screen .col {
+    flex-grow: 2;
+    flex-basis: 300px;
+    margin: 0.5rem 0.1rem;
+}
+
+#screen img {
+    height: 200px;
+    width: 200px;
+}
+
+#spilelementer img {
+    height: 200px;
+    width: 200px;
+
+}
+
+
+
+#uielementer img {
+    height: 200px;
+    width: 200px;
+
+}
+
+
+/**spil færdig**/
+
+
+
+
+/***UX****/
+
+
+
+/***portfolie**/
+
+
+#temaer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#temaer .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    /*    margin: 0.5rem 0.1rem;*/
+
+
+}
+
+
+#tema2 .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    /*    margin: 0.5rem 0.1rem;*/
+
+
+}
+
+/*
+
+#temaer .top .img {
+    border: 1px solid red;
+    border-radius: 10px;
+
+}
+*/
+
+
+
 
 
 
