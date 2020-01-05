@@ -31,6 +31,7 @@ body {
     z-index: 100;
 }
 
+
 #play_knap {
     background-image: url(SVG_filer/play.svg);
     position: absolute;
@@ -551,6 +552,37 @@ body {
 .hide {
     visibility: hidden;
 }
+
+
+
+#play_knap {
+    animation-name: pulse_kf;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+@keyframes pulse_kf {
+
+    0% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+
+
+}
+
 
 .disappear {
     animation-name: disappear_kf;
